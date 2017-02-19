@@ -1,0 +1,44 @@
+{
+  "name": "graphology-functions",
+  "version": "0.0.1",
+  "description": "Functional programming utilities for graphology.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint *.js",
+    "prepublish": "npm run lint && npm test",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graphology/graphology-functions.git"
+  },
+  "keywords": [
+    "graph",
+    "graphology",
+    "fp"
+  ],
+  "author": {
+    "name": "Guillaume Plique",
+    "url": "http://github.com/Yomguithereal"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/graphology/graphology-functions/issues"
+  },
+  "homepage": "https://github.com/graphology/graphology-functions#readme",
+  "devDependencies": {
+    "@yomguithereal/eslint-config": "^3.0.0",
+    "eslint": "^3.5.0",
+    "graphology": "^0.5.4",
+    "mocha": "^3.0.2"
+  },
+  "eslintConfig": {
+    "extends": "@yomguithereal/eslint-config"
+  },
+  "dependencies": {
+    "curry": "^1.2.0"
+  }
+}
